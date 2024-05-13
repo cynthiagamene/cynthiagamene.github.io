@@ -1,0 +1,96 @@
+/* Cynthia portfolio style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c34fb3;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#landing {
+    height: 70vh;
+    background-image: url('background.png');
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Centers the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#landing img {
+    max-width: 30%;
+    height: auto;
+}
+#landing {
+    position: relative;
+}
+
+.landing-text {
+    position: absolute;
+    top: 10px; /* Adjust the distance from the top */
+    left: 10px; /* Adjust the distance from the left */
+    color: black; /* Adjust the color as needed */
+    text-align: left; /* Align text to the left */
+    font-family: Arial, sans-serif; /* Change the font family */
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px; /* Set the font size to 24 pixels */
+}
+
+
+
+
+#game-design video {
+    background: black;
+    width: 100%; /* Adjust width as needed */
+    max-height: 80vh; /* Adjust max-height as needed */
+}
+#Welcome {
+  background: black;
+}
+nav img {
+            max-height: 70px; /* Adjust the height as needed */
+            width: auto;
+            margin-left: 80%; /* Adjust margin as needed */
+        }
+        #ux-ui {
+            clear: both; /* Clear floats */
+            margin-top: 20px; /* Adjust top margin as needed */
+        }
